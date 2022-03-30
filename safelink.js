@@ -1,4 +1,4 @@
-$(".wcauthor").click(function() {
+$("#HTML10").click(function() {
     $(".safeauthor").fadeIn()
 }), $(".wcSafeClose").click(function() {
     $(".safeauthor").fadeOut(), $("#generatelink").addClass("hidden"), $("#generateurl").val("")

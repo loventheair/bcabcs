@@ -1,6 +1,5 @@
-document.ready(function() {
-  if (window.location.href.indexOf('https://www.learnfullform.com/')) {
-    //Hide the element.
-    jQuery('.main.section').hide();
-  }
-});
+ document.addEventListener("DOMContentLoaded", function(event) { 
+    if (window.location.href.indexOf("https://www.learnfullform.com/") != -1) {
+         $("#main").hide();
+    }
+  });

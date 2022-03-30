@@ -2,5 +2,5 @@
 $(".wcauthor").click(function() {
     $(".safeWrap").fadeIn()
 }), $(".wcSafeClose").click(function() {
-    $(".safeWrap").fadeOut(), $("#generatelink").addClass("hidden"), $("#generateurl").val("")
+    $(".safeWrap").fadeOut()
 });

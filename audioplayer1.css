@@ -7,11 +7,12 @@
     margin: 1em 0;
     padding: 0 24px;
     width: 100%;
-    height: 65px;
+    height: 60px;
     align-items: center;
-    border: 1px solid #DDE2E6;
-    border-radius: 4px;
-    background: #fff;
+/*     border: 1px solid #DDE2E6; */
+    border-radius: 10px;
+    background: var(--contentB);
+    box-shadow: 0 0 25px rgb(0 0 0 / 13%);
 }
 
 .audioplayer-playpause {

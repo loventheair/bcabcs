@@ -28,7 +28,7 @@
 
 .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
     background: rgba(91, 130, 255, 0);
-    border: 1px solid #5B82FF;
+    border: 2px solid var(--linkB);
 }
 
 .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover {
@@ -53,7 +53,7 @@
     border-top: 7px solid transparent;
     border-right: none;
     border-bottom: 7px solid transparent;
-    border-left: 12px solid #0059FF;
+    border-left: 12px solid var(--linkB);
 }
 
 .audioplayer-playing .audioplayer-playpause a {
@@ -222,7 +222,8 @@
     top: 0;
     left: 0;
     height: 2px;
-    background-color: #0059FF;
+    background-color: var(--linkB);
+    border-radius: 15px;
 }
 
 /* responsive | you can change the max-width value to match your theme */
@@ -232,3 +233,9 @@
         display: none;
     }
 }
+.drK .audioplayer{background:var(--darkBa)}
+.drK .audioplayer-time{color:var(--darkT)}
+.drK .audioplayer-time{color:var(--darkT)}
+.drK .audioplayer-volume-adjust div div{background-color:#09B1FA}
+.drK .audioplayer:not(.audioplayer-playing) .audioplayer-playpause{border: 2px solid #09B1FA}
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a{border-left: 12px solid #09B1FA}
